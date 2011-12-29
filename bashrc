@@ -20,6 +20,7 @@ cd ~
 # Put your fun stuff here.
 alias ls='ls --color --group-directories-first'
 alias ll='ls -lh'
+alias cls='clear'
 
 #need to make sure things are where they should be
 export PATH=~/bin:~/perl5/usr/bin:~/ruby/bin:$PATH

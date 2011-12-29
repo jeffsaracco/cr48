@@ -33,7 +33,8 @@ If you want anything else on here, let me know. Or add it yourself and pull requ
  * put your CR-48 in [developer mode](http://ablu.us/av)
  * drop into a shell (Ctrl+Alt+t, then `shell`)
  * make your main partition executable with `sudo mount -i -o remount,exec /home/chronos/user` (don't worry, this will not damage anything
- * download this repo to a different computer, then use `scp` to put it to /home/chronos/user/cr48
+ * download the .tar.gz version of this repo and put it /home/chronos/user/cr48
+ * then do `tar -xzf` on the file
  * `cd /home/chronos/user/cr48 && chmod +x install && ./install`
 
 The install script will move everything into the correct place. It may or may not make everything executable, so you may have to `chmod +x /home/chronos/user/bin/*` NOTE: I have not tested the install script, so it may or may not run correctly. If anything is wrong, send me and email at hi@ablu.us.
